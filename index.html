@@ -22,7 +22,7 @@
       触发点击事件
     </button>
     <div class="placeholder"></div>
-    <img src="./code.png" alt="">
+    <img src="./code.png" alt="" />
     <img
       class="vcr-show"
       src="./show.png"
@@ -36,7 +36,9 @@
         show: { threshold: 0.5 }, // 元素超过一半触发曝光
       });
 
-      console.log("[event_view]: 触发浏览事件");
+      vtmEventDOM.on("view", (entry) => {
+        console.log("[event_view]: 触发浏览事件");
+      });
 
       vtmEventDOM.on("click", (entry) => {
         console.log(
