@@ -2,13 +2,11 @@
 
 运行步骤：
 
-1、安装依赖：npm install
+1、Demo：打开 index.html
 
-2、Demo：打开 index.html
+2、F12打开开发者工具 Console-控制台
 
-3、F12打开开发者工具 Console-控制台
-
-4、刷新页面，查看事件日志
+3、刷新页面，查看事件日志
 
 - 浏览事件：页面一打开触发
 
