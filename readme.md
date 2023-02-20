@@ -1,6 +1,10 @@
+说明：一个“支持各种框架（vue,react,jquery）”浏览、点击、曝光的全埋点SDK，可打开index.html查看示例（支持同步、异步、增量、存量节点的监听）
+
+运行步骤：
+
 1、安装依赖：npm install
 
-2、打开 index.html
+2、Demo：打开 index.html
 
 3、F12打开开发者工具 Console-控制台
 
